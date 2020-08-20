@@ -1,13 +1,21 @@
+  
 import React from 'react';
 
-const MenuItem = ({ props }) => (
-	<div className='menu-item'>
-		{console.log('Props:', props)}
-		<div className='content'>
-			<h1 className='title'>{props.title}</h1>
-			<span className='subtitle'>SHOP NOW</span>
-		</div>
-	</div>
+import './menu-item.styles.scss';
+
+const MenuItem = ({ title, imageUrl, size }) => (
+  <div className={`${size} menu-item`}>
+    <div
+      className='background-image'
+      style={{
+        backgroundImage: `url(${imageUrl})`
+      }}
+    />
+    <div className='content'>
+      <h1 className='title'>{title.toUpperCase()}</h1>
+      <span className='subtitle'>SHOP NOW</span>
+    </div>
+  </div>
 );
 
 export default MenuItem;
