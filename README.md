@@ -2,12 +2,12 @@
 
 ## Project Overview
 
-A full-stack e-commerce project that demostrates a fully functional shopping website from start to finish.
+A full-stack e-commerce project that demonstrates a fully functional shopping website from start to finish.
 
 ### Key Features
 
-• Creating and authenticating an account
-• Add items to your account and make online purchases using stripe payments
+* Creating and authenticating an account
+* Add items to your account and make online purchases using stripe payments
 
 ## Tech Stack
 
