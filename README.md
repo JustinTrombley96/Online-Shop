@@ -1,4 +1,4 @@
-# Online-Shop
+# Online-Shop (Work In Progress)
 
 ## Project Overview
 
